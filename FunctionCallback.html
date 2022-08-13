@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").dblclick(function(){
+    $("p").hide("slow", function(){
+       
+      alert("The paragraph is now hidden");
+    });
+    
+  });
+});
+</script>
+</head>
+<body>
+<p id="p1">Hello Students. Welcome to jQuery.</p>
+
+<p>Jquery is a library of Javascript!!!!</p>
+<button>Click Me</button>
+
+</body>
+</html>
